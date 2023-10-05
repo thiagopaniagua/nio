@@ -1,0 +1,184 @@
+.imagenes {
+    .productos h3 {
+        font-family: 'Audiowide';
+        color: white;
+        padding: 1%;
+        margin: 120px 0px 30px 0px;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 2px rgb(13, 0, 0);
+    }
+
+    .card {
+        border-radius: 1px;
+    }
+
+    .row {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    text-align: center;
+
+
+
+    .card img {
+        width: 100%;
+    }
+}
+
+.card-p6 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 765px) {
+    .noticias {
+        .card-text {
+            display: none;
+        }
+    }
+
+    .card-p6 {
+        font-size: 1.5rem;
+    }
+}
+
+.imagenes {
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+
+        &:hover {
+            color: violet;
+        }
+    }
+
+
+}
+
+.publi-noticias {
+    width: 95%;
+}
+
+
+
+
+
+.contacto-form {
+    background-image: url(../img/Fondo\ Contacto.jpg);
+    text-align: start;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    color: #fafafa;
+    text-shadow: 2px 3px 3px rgb(13, 0, 0);
+    background-color: lightblue;
+    padding: 4%;
+    border-radius: 10px;
+    justify-content: center;
+
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    label {
+        padding-top: 2%;
+        padding-bottom: 5px;
+    }
+
+    textarea {
+        width: 100%;
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .contacto-form {
+        margin-top: 20%;
+        margin-right: 5%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 3px 3px pink;
+        background-color: lightblue;
+        padding: 4%;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
+
+.botones-contacto button {
+    background-color: violet;
+    color: white;
+    font-weight: bold;
+    width: 48%;
+    padding: 1.5%;
+    border-radius: 25px;
+    font-size: medium;
+    margin-left: 1.5%;
+    border: none;
+
+    &:hover {
+        box-shadow: 0px 0px 5px pink;
+        background-color: lightblue;
+        color: #fafafa;
+    }
+}
+
+
+.main-tienda {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    .maint {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .cartita {
+        padding-top: 20px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 24px;
+
+    }
+
+    .tienda-boton {
+        color: #fafafa;
+        background-color: violet;
+        border: violet;
+
+        &:hover {
+            background-color: lightcoral;
+
+
+        }
+    }
+}
+
+@media (max-width: 1240px) {
+    .main-tienda {
+        text-align: center;
+        font-family: 'Audiowide';
+        padding: 1%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+}

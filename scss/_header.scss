@@ -1,0 +1,39 @@
+@mixin anclas {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(44, 43, 46);;
+    top: 0;
+
+    li:hover {
+        background-color: #fafafa;
+        border-radius: 15px;
+        
+    }
+
+    color: white;
+}
+
+li a {
+    @include anclas;
+    margin: 10px;
+    font-weight: 580px;
+    font-size: 25px;
+    color: #fafafa;
+    padding: 10px;
+    
+}
+
+.miLogo {
+    width: 150px;
+    display: block;
+}

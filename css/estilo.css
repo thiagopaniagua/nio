@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/Fondo\ Tienda.jpg);
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(44, 43, 46);
+  top: 0;
+  color: white;
+}
+header li:hover {
+  background-color: #fafafa;
+  border-radius: 15px;
+}
+
+li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 580px;
+  font-size: 25px;
+  color: #fafafa;
+  padding: 10px;
+}
+
+.miLogo {
+  width: 150px;
+  display: block;
+}
+
+.footer {
+  background-color: rgb(44, 43, 46);
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: solid 1px black;
+}
+
+.lista-linea {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin-right: 0.3rem;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.sociales {
+  text-align: center;
+}
+
+.soc {
+  cursor: pointer;
+  animation: salto 0.5s infinite alternate;
+}
+
+@keyframes salto {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.copy {
+  background-color: rgb(44, 43, 46);
+  text-align: center;
+  color: white;
+}
+
+p {
+  margin-bottom: 0px;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 1040px) {
+  .sociales {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .left {
+    text-align: center;
+  }
+  .lista-linea a,
+  .copy p {
+    font-size: 1rem;
+  }
+}
+.imagenes {
+  text-align: center;
+}
+.imagenes .productos h3 {
+  font-family: "Audiowide";
+  color: white;
+  padding: 1%;
+  margin: 120px 0px 30px 0px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgb(13, 0, 0);
+}
+.imagenes .card {
+  border-radius: 1px;
+}
+.imagenes .row {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.imagenes .card img {
+  width: 100%;
+}
+
+.card-p6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 765px) {
+  .noticias .card-text {
+    display: none;
+  }
+  .card-p6 {
+    font-size: 1.5rem;
+  }
+}
+.imagenes a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+.imagenes a:hover {
+  color: violet;
+}
+
+.publi-noticias {
+  width: 95%;
+}
+
+.contacto-form {
+  background-image: url(../img/Fondo\ Contacto.jpg);
+  text-align: start;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  color: #fafafa;
+  text-shadow: 2px 3px 3px rgb(13, 0, 0);
+  background-color: lightblue;
+  padding: 4%;
+  border-radius: 10px;
+  justify-content: center;
+}
+.contacto-form h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contacto-form label {
+  padding-top: 2%;
+  padding-bottom: 5px;
+}
+.contacto-form textarea {
+  width: 100%;
+  border-radius: 7px;
+}
+
+@media (max-width: 1240px) {
+  .contacto-form {
+    margin-top: 20%;
+    margin-right: 5%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px pink;
+    background-color: lightblue;
+    padding: 4%;
+    border-radius: 10px;
+    text-align: center;
+  }
+}
+h2{
+  text-align: center;
+}
+.botones-contacto button {
+  background-color: violet;
+  color: white;
+  font-weight: bold;
+  width: 48%;
+  padding: 1.5%;
+  border-radius: 25px;
+  font-size: medium;
+  margin-left: 1.5%;
+  border: none;
+}
+.botones-contacto button:hover {
+  box-shadow: 0px 0px 5px pink;
+  background-color: lightblue;
+  color: #fafafa;
+}
+
+.main-tienda {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.main-tienda .maint {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.main-tienda .cartita {
+  padding-top: 20px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  margin: 0 auto;
+}
+.main-tienda .cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.main-tienda .tienda-boton {
+  color: #fafafa;
+  background-color: violet;
+  border: violet;
+}
+.main-tienda .tienda-boton:hover {
+  background-color: lightcoral;
+}
+
+@media (max-width: 1240px) {
+  .main-tienda {
+    text-align: center;
+    font-family: "Audiowide";
+    padding: 1%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.tituloTienda {
+  font-family: "Audiowide";
+  color: white;
+  padding: 1%;
+ margin-top: 80px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgb(13, 0, 0);
+}
+
+@media (max-width: 1240px) {
+  .tituloTienda {
+    font-family: "Audiowide";
+    color: white;
+    padding: 1%;
+    margin: 120px 100px 30px 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(13, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 240px) {
+  .tituloTienda {
+    margin-left: 70px;
+  }
+}
+.carrusel {
+  grid-area: seccion2;
+}
+
+.section-carousel {
+  width: 95vw;
+  height: auto;
+  padding: 0;
+  margin: auto;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 50vw;
+  border: 2px solid grey;
+  object-fit: fill;
+}
+
+@media (max-width: 872px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerContenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main-nosotros {
+  border: 3px solid lightcoral;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Futura Bold Italic";
+  margin: 80px 15px;
+  padding: 20px;
+}
+
+.div-nosotros h1 {
+  font-size: 40px;
+  background-color: lightcoral;
+}
+
+.nosotros-p {
+  color: #fafafa;
+  padding: 10%;
+  background-image: url(../img/Fondos\ Nosotros\ 1.jpg);
+}
+
+.inicio-cartas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  margin-top: 60px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  gap: 50px;
+}
+
+.card-title {
+  color: #fafafa;
+}
+
+@media (max-width: 768px) {
+  .inicio-cartas {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

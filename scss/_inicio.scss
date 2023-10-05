@@ -1,0 +1,27 @@
+.inicio-cartas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 20px;
+  gap: 50px;
+}
+
+.card-title {
+  color: #fafafa;
+
+}
+
+@media (max-width: 768px) {
+  .inicio-cartas {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
